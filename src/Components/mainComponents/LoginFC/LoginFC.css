@@ -1,0 +1,38 @@
+.LoginFC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/loginpg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginn{
+    width: 500px;
+    height: 400px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 12%; 
+    background-color: white;
+    opacity: 0.974;
+}
+
+.signUp{
+    margin-left: 10px;
+    background: #f3577e;
+    color: rgb(0, 0, 0);
+	font: 18px ;
+	padding: 10px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.signUp:hover{
+    background: #fc7395;
+    color: rgb(0, 0, 0);
+}
+
+

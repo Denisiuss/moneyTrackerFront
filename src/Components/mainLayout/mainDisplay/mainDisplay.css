@@ -1,0 +1,60 @@
+.dashboard {
+    position: fixed;
+	padding: 10px 30px;
+	margin: 0;
+    background-color: blueviolet;
+}
+
+.bg-image{
+    padding: 6em;
+    margin-top: -1.9em;
+    margin-left: -1.9em;
+    margin-right: -1.9em;
+    background-image: url(/src/mainImg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainName{
+    margin-left: -80%;
+}
+
+.widgets, .charts {
+    display: flex;
+    padding: 20px;   
+    gap: 20px; 
+}
+
+.chart{
+    padding: 5px 20px;
+}
+
+.listContainer{
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+}
+
+.listTitle{
+    justify-content: space-between;
+    color: gray;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: flex;
+    list-style-type: none;    
+}
+
+.listTitle .a{
+    margin-right: 12px;
+    background: #f3577e;
+    color: rgb(0, 0, 0);
+	font: 18px 'Oswald', sans-serif;
+	padding: 12px;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.listTitle .a:hover{
+    background: #fa7194;
+}

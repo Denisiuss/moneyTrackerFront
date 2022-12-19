@@ -1,0 +1,21 @@
+.layout {
+	min-height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: 25% 70% 5%;
+    grid-template-columns: repeat(6,1fr);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.layout>header,.layout>footer{
+    grid-column: span 6;
+    background-color: rgb(232, 232, 232); 
+    flex-shrink: 0;
+   }
+
+.layout>main{
+    grid-column: span 5;
+    flex: 1 1 auto;
+    padding: 30px;
+}

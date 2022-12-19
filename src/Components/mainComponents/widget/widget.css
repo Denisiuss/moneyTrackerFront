@@ -1,0 +1,89 @@
+.widget {
+	display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height: 130px;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+.counter{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.link{
+    width: max-content;
+    font-size: 16px;
+    
+}
+
+.percentage{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.icon{
+    font-size: 18px;
+    padding: 5px;
+    background-color: rgba(89, 103, 129, 0.356);
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+
+.effect-2{
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+input[type="number"]{
+    
+    outline: none;
+    text-align: center;
+    margin: 0;
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333; width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+.effect-2 ~ .focus-border {
+    position: absolute;
+    bottom: 0; left: 50%;
+    width: 0; height: 2px;
+    background-color: #4caf50;
+    transition: 0.4s;
+}
+.effect-2:focus ~ .focus-border {
+    width: 100%;
+    transition: 0.4s;
+    left: 0;
+}
+.col-3{
+    position: relative;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
